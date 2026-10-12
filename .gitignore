@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model cache (large files - don't commit)
+models/*.bin
+models/*.txt
+models/*.npy
+models/*.gz
+
+# Logs
+outputs/logs/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/

@@ -1,0 +1,73 @@
+# src/answer_key.py
+"""The 11 PC hardware items + aliases + short descriptions."""
+
+ANSWER_KEY = [
+    {
+        "id": 1,
+        "canonical": "Central Processing Unit",
+        "aliases": ["cpu", "processor", "central processor", "brain of the computer"],
+        "description": "The CPU is the 'brain' of the computer. It executes instructions and performs calculations for every program you run.",
+    },
+    {
+        "id": 2,
+        "canonical": "Motherboard",
+        "aliases": ["mainboard", "system board", "mobo", "logic board"],
+        "description": "The motherboard is the main circuit board that connects all components — CPU, RAM, storage, and peripherals — so they can communicate.",
+    },
+    {
+        "id": 3,
+        "canonical": "Random Access Memory",
+        "aliases": ["ram", "memory", "main memory", "system memory"],
+        "description": "RAM is temporary, fast-access memory that holds data currently in use. More RAM means smoother multitasking.",
+    },
+    {
+        "id": 4,
+        "canonical": "Storage Drive",
+        "aliases": ["ssd", "hdd", "hard drive", "hard disk", "solid state drive",
+                    "disk drive", "storage"],
+        "description": "Storage drives permanently hold your files and operating system. SSDs are faster; HDDs are cheaper and higher capacity.",
+    },
+    {
+        "id": 5,
+        "canonical": "Power Supply Unit",
+        "aliases": ["psu", "power supply", "psu unit", "power source"],
+        "description": "The PSU converts AC wall power to the DC voltages your components need to run.",
+    },
+    {
+        "id": 6,
+        "canonical": "Graphics Processing Unit",
+        "aliases": ["gpu", "graphics card", "video card", "graphics processor"],
+        "description": "The GPU handles image rendering, video, and parallel math. Essential for gaming, AI, and video editing.",
+    },
+    {
+        "id": 7,
+        "canonical": "Computer Case",
+        "aliases": ["chassis", "tower", "pc case", "cabinet"],
+        "description": "The case houses and protects all internal components and provides airflow and mounting points.",
+    },
+    {
+        "id": 8,
+        "canonical": "Cooling System",
+        "aliases": ["cpu cooler", "case fans", "fan", "heatsink",
+                    "liquid cooling", "air cooler"],
+        "description": "Cooling systems such as fans, heatsinks, and liquid coolers keep components at safe temperatures and prevent throttling.",
+    },
+    {
+        "id": 9,
+        "canonical": "Monitor",
+        "aliases": ["screen", "display", "lcd", "led monitor"],
+        "description": "The monitor is the output display that shows everything the computer renders.",
+    },
+    {
+        "id": 10,
+        "canonical": "Keyboard",
+        "aliases": ["keypad", "typing device"],
+        "description": "The keyboard is the primary text input device for letters, numbers, and commands.",
+    },
+    {
+        "id": 11,
+        "canonical": "Mouse",
+        "aliases": ["pointing device", "cursor controller"],
+        "description": "The mouse is a pointing device for moving the cursor, clicking, and selecting on screen.",
+    },
+]
