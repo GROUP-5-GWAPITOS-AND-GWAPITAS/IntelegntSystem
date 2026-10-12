@@ -22,7 +22,7 @@ print(f"[model] GloVe loaded. Vector size = {VECTOR_SIZE}")
 
 # ---- Thresholds (calibrated after testing) ----
 HIGH_THRESHOLD = 0.68    # confident correct
-LOW_THRESHOLD  = 0.55    # partial / suggest
+LOW_THRESHOLD  = 0.70    # partial / suggest
 FUZZY_THRESHOLD = 0.80   # Levenshtein ratio for typo match
 # below LOW_THRESHOLD = unrecognized
 
